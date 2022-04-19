@@ -21,7 +21,7 @@ const image = require("./controllers/image");
 app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
-app.get("/", (res) => {
+app.get("/", (req, res) => {
   res.send("success");
 });
 
