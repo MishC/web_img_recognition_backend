@@ -49,7 +49,7 @@ app.listen(process.env.PORT || 3000, () => {
 /*
 /signin --> POST = success/fail
 /register --> POST =user
-/profile/:userId ---> GET = user
-/image --> PUT --> user ++ entries
+/profile/:userId db users---> GET = user
+/image --> PUT db users--> user ++ entries
 
 */
