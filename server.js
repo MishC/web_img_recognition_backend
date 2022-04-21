@@ -45,11 +45,3 @@ app.post("/imageurl", (req, res) => {
 app.listen(process.env.PORT || 3000, () => {
   console.log("app is running on port 3000");
 });
-
-/*
-/signin --> POST = success/fail
-/register --> POST =user
-/profile/:userId db users---> GET = user
-/image --> PUT db users--> user ++ entries
-
-*/
